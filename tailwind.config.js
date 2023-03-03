@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/style.css",
-    "./public/index.html",
+    "index.html",
     "./public/style.css"          
   ],
   darkMode: 'class',
