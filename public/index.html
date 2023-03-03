@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kevin Aton Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="font-Poppins dark:bg-slate-900 text-white bg-hero bg-scroll">
+    <!-- Header -->
+    <header>
+      <nav class="container flex items-center py-4 xs:py-2">
+        <div class="py-1">
+          <h1 class="text-lg">My Portfolio</h1>
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 uppercase text-xs dark:text-white"
+        >
+          <li class="cursor-pointer" onclick="copyClipboard('kevinyaton@gmail.com')"> <i class="fa-regular fa-envelope"></i> kevinyaton@gmail.com</li>
+          <li class="cursor-pointer" onclick="copyClipboard('+639261482586')"><i class="fa-solid fa-phone"></i> +639261482586</li>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <i class="fas fa-bars text-2xl"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative">
+      <div
+        class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-28 md:mt-36"
+      >
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1
+            class="text-5xl md:text-5 lg:text-5xl text-center lg:text-left mb-2 dark:text-white font-semibold"
+          >
+            Kevin Aton
+          </h1>
+          <h5 class="text-2xl text-center lg:text-left mb-6">
+            Frontend Developer | UI/UX Designer
+          </h5>
+          <ul class="items-start text-sm list-disc list-inside mb-10">
+            <li class="mb-4">3-4 years of experience in software development, specializing in frontend development, API integration, and more.</li>
+            <li class="mb-4">Highly skilled in UI/UX design, creating engaging and user-friendly interfaces.</li>
+            <li class="mb-4">Proficient in agile methodologies, capable of collaborating effectively with cross-functional teams.</li>
+          </ul>
+          <div class="flex justify-center flex-wrap gap-4">
+            <button type="button" class="btn btn-dark"><a href="https://www.figma.com/proto/h61zxwGL2SKnDRnedxn5Nz/Kevin-Aton-Portfolio?page-id=0%3A1&node-id=2%3A2&viewport=123%2C344%2C0.12&scaling=min-zoom&starting-point-node-id=2%3A2" target="blank">Figma Portfolio</a></button>
+            <button type="button" class="btn btn-light"><a href="behance.net/kevinplaridel" target="blank">Behance</a></button>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="flex flex-1 justify-center mb-4 md:mb-16 lg:mb-0 z-10">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm-h-3/4"
+            src="./img/kev.png"
+            alt="my face"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Processes -->
+    <section class="py-20 mt-14 md:mt-20" id="myprocess">
+      <div class="container">
+        <!-- Heading -->
+        <div class="row">
+          <h2 class="text-3xl mb-4 text-center md:text-start">Development Process</h2>
+        </div>
+
+        <!-- Processes -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center sm:text-left mb-8">
+          <div class="
+            rounded
+            overflow-hidden
+            shadlow-lg
+            p-6 
+            dark:border-slate-600
+            dark:border-opacity-25
+            border-solid border-2 
+            hover:bg-slate-700 
+            hover:bg-opacity-25
+            transition
+          ">
+            <p class="text-4xl font-light opacity-40">1</p>
+            <h3 class="text-lg font-semibold">Requirements Gathering and Analysis</h3>
+            <p class="text-sm">As a developer, my first task is to understand the goals and objectives of the project, the target audience, the platform to focus on, and the process flow and behavior of the feature. I will collaborate with stakeholders to gather requirements and analyze them thoroughly to ensure that the final product meets their expectations.</p>
+          </div>
+          <div class="
+            rounded
+            overflow-hidden
+            shadlow-lg
+            p-6 
+            dark:border-slate-600
+            dark:border-opacity-25
+            border-solid border-2 
+            hover:bg-slate-700 
+            hover:bg-opacity-25
+            transition
+          ">
+            <p class="text-4xl font-light opacity-40">2</p>
+            <h3 class="text-lg font-semibold">Design</h3>
+            <p class="text-sm">Once I have a clear understanding of the requirements, I will proceed to create a wireframe, high-fidelity mockup, or prototype depending on the project's needs. My objective is to review the output and ensure its feasibility, researching and implementing the best strategies to achieve the requirements. I will collaborate with a designer on the team if necessary.</p>
+          </div>
+          <div class="
+            rounded
+            overflow-hidden
+            shadlow-lg
+            p-6 
+            dark:border-slate-600
+            dark:border-opacity-25
+            border-solid border-2 
+            hover:bg-slate-700 
+            hover:bg-opacity-25
+            transition
+          ">
+            <p class="text-4xl font-light opacity-40">3</p>
+            <h3 class="text-lg font-semibold">Development</h3>
+            <p class="text-sm">Once the design is approved, I will begin transforming it into a fully functional application while prioritizing clean, readable, and maintainable code. In parallel, I will develop the necessary APIs while considering the responsiveness of the application and ensuring seamless integration with the API.</p>
+          </div>
+          <div class="
+            rounded
+            overflow-hidden
+            shadlow-lg
+            p-6 
+            dark:border-slate-600
+            dark:border-opacity-25
+            border-solid border-2 
+            hover:bg-slate-700 
+            hover:bg-opacity-25
+            transition
+          ">
+            <p class="text-4xl font-light opacity-40">4</p>
+            <h3 class="text-lg font-semibold">QA and Testing</h3>
+            <p class="text-sm">Once the development is complete, I will review the output of my work and ensure that all use cases have been considered. I will test the application thoroughly to identify and fix any bugs or issues before deployment.</p>
+          </div>
+          <div class="
+            rounded
+            overflow-hidden
+            shadlow-lg
+            p-6 
+            dark:border-slate-600
+            dark:border-opacity-25
+            border-solid border-2 
+            hover:bg-slate-700 
+            hover:bg-opacity-25
+            transition
+          ">
+            <p class="text-4xl font-light opacity-40">5</p>
+            <h3 class="text-lg font-semibold">Deployment & Maintenance</h3>
+            <p class="text-sm">After UAT testing, I will assist in the deployment, continue testing, or depending on the process. I will monitor updates and performance, ensuring that any unconsidered scenarios and bugs are addressed promptly. Ongoing maintenance is crucial to ensure the application remains reliable and up-to-date.</p>
+          </div>
+        </div>
+
+        <!-- Other processes -->
+        <div class="row mb-4">
+          <h3 class="text-lg">Other Process</h3>
+        </div>
+        <div class="row flex flex-wrap items-stretch gap-3 text-center mb-20">
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            Agile Scrum
+          </div>
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            User Persona
+          </div>
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            Empathy Mapping
+          </div>
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            Competitive Analysis
+          </div>
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            User Journey
+          </div>
+          <div class="p-4 dark:bg-slate-700 rounded hover:dark:bg-slate-800 transition">
+            Storyboarding
+          </div>
+        </div>
+
+        <!-- Stacks & Tools -->
+        <div class="row mb-4">
+          <h2 class="text-3xl mb-8 text-center md:text-start">Stacks & Tools</h2>
+        </div>
+        <div class="row flex flex-wrap items-stretch gap-3 text-center">
+          <img class="w-20 h-20" src="./img/vue.png" alt="vue"/>
+          <img class="w-20 h-20" src="./img/vuetify.png" alt="vuetify"/>
+          <img class="w-20 h-20" src="./img/react.png" alt="react"/>
+          <img class="w-20 h-20" src="./img/mui.png" alt="mui"/>
+          <img class="w-20 h-20" src="./img/tailwind.png" alt="tailwind"/>
+          <img class="w-20 h-20" src="./img/html5.png" alt="html5"/>
+          <img class="w-20 h-20" src="./img/css3.png" alt="css3"/>
+          <img class="w-20 h-20" src="./img/git.png" alt="git"/>
+          <img class="w-20 h-20" src="./img/vscode.png" alt="vscode"/>
+          <img class="w-20 h-20" src="./img/figma.png" alt="figma"/>
+          <img class="w-20 h-20" src="./img/xd.png" alt="adobe xd"/>
+          <img class="w-20 h-20" src="./img/photoshop.png" alt="Adobe Photoshop"/>
+          <img class="w-20 h-20" src="./img/illustrator.png" alt="Adobe Illustrator"/>
+          <img class="w-20 h-20" src="./img/aftereffects.png" alt="Adobe After Effects"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Works -->
+    <section class="py-20" id="developmentworks">
+      <div class="container">
+        <div class="row mb-4">
+          <h2 class="text-3xl mb-8 text-center md:text-start">Development Works</h2>
+        </div>
+        <div class="row flex flex-wrap gap-3 text-center sm:text-left mb-8">
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10" href="http://outcert.com/" target="blank">
+              <img class="rounded" src="./img/outcert.png" alt="Outcert" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10" href="https://www.lihongjade.com/" target="blank">
+              <img class="rounded" src="./img/lihongjade.png" alt="lihongjade" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10" href="https://www.hikarigroup.com.sg/" target="blank">
+              <img class="rounded" src="./img/hikari.png" alt="Hikari" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10" href="https://hyperstacksinc.com/" target="blank">
+              <img class="rounded" src="./img/hyperstacks.png" alt="hyperstacks inc." />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10">
+              <img class="rounded" src="./img/dumptruckdispatcher.png" alt="dumptruckdispatcher" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10">
+              <img class="rounded" src="./img/nomera.png" alt="nomera" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10" href="https://qwang.sg/" target="blank">
+            <img class="rounded" src="./img/qwang.png" alt="qwang" />
+            </a>
+            <a class="p-0 m-0 w-full h-auto sm:w-1/3 flex-auto hover:shadow-xl hover:scale-105 transition duration-500 z-10">
+              <img class="rounded" src="./img/routaph.png" alt="routaph" />
+            </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="pt-5 sm:pt-20">
+      <div class="container">
+        <div class="row flex flex-col flex-wrap text-center items-center">
+          <h2 class="text-3xl mb-6">Let's Talk</h3>
+          <div class="flex flex-1 flex-wrap text-center items-center gap-5 mb-20">
+            <button 
+              type="button"
+              class="flex-1 sm:flex-auto text-xl px-8 py-5 rounded bg-blue-800 hover:bg-blue-700 transition"
+              onclick="copyClipboard('kevinyaton@gmail.com')"
+              value="kevinyaton@gmail.com"
+              id="email"
+            >
+              <i class="fa-regular fa-envelope"></i> kevinyaton@gmail.com
+            </button>
+            <button 
+              type="button"
+              class="flex-1 sm:flex-auto text-xl px-8 py-5 rounded bg-blue-800 hover:bg-blue-700 transition"
+              onclick="copyClipboard('+639261482586')"
+              value="+639261482586"
+              id="phone"
+            >
+              <i class="fa-solid fa-phone"></i> +639261482586
+            </button>
+          </div>
+          <p class="items-baseline py-3 text-gray-400">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Your Name All Rights Reserved</p>
+        </div>
+      </div>
+    <section>
+  </body>
+</html>
+
+<script>
+  function copyClipboard(val) {
+    navigator.clipboard.writeText(val)
+    .then(() => {
+      alert(`Copied text to clipboard: ${val}`)
+    })
+    .catch((err) => {
+      console.log(`Could not copy text: ${val}`)
+    })
+  }
+</script>
